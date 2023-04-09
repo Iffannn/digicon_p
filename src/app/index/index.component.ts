@@ -52,7 +52,7 @@ export class IndexComponent {
   }
 
   getData(keyword: string) {
-    let baseUrl = `http://localhost:8080/getsolr/` + keyword;
+    let baseUrl = `http://localhost:8081/getsolr/` + keyword;
     //console.log(environment.apiurl);
     return this.http.get<RootResponse>(baseUrl, this.httpOptions);
   }

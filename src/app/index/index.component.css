@@ -1,0 +1,19 @@
+
+    .bottomleft {
+      position: absolute;
+      top:50%;
+      bottom: 8px;
+      left: 80px;
+      font-size: 18px;
+    }
+    .container-genre{
+      background-color: white;
+      text-align: center;
+    }
+    .bg-img{
+      width: 50%;
+    }
+    .game-genre{
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
